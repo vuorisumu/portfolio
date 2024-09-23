@@ -58,32 +58,41 @@
   color: #838383;
 }
 
-#info {
+#infoContainer {
   display: grid;
   grid-template-columns: 150px auto;
   background: var(--secondary-color);
 }
-#info img {
+#infoContainer img {
   grid-row: 1/3;
   width: 100%;
 }
 
-#about {
+#aboutContainer {
   display: flex;
   flex-wrap: wrap;
 }
-#about section {
+#aboutContainer section {
   flex: 50%;
 }
-#about section:last-of-type {
+#aboutContainer section:last-of-type {
   flex: 100%;
 }
-#about .skills li {
+#aboutContainer .skills li {
   display: inline-block;
 }
-#about .skills li:not(:last-child)::after {
+#aboutContainer .skills li:not(:last-child)::after {
   content: "•";
   padding: 0 5px;
+}
+
+#experience .expFields {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#contact {
+  text-align: center;
 }
 
 * {

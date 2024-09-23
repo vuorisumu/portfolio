@@ -7,8 +7,8 @@ function About() {
   const skills = t("skills", { returnObjects: true });
 
   return (
-    <article>
-      <div id="about">
+    <article id="about">
+      <div id="aboutContainer">
         <section>
           <h2>{t("about")}</h2>
           {desc.map((d, index) => (

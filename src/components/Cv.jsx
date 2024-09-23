@@ -5,8 +5,8 @@ function Cv() {
   const experience = t("experience", { returnObjects: true });
 
   return (
-    <article>
-      <ul>
+    <article id="experience">
+      <ul className="expFields">
         {experience.map((expField) => (
           <li key={`expField${expField.name}`}>
             <h2>{expField.name}</h2>

@@ -4,8 +4,8 @@ function GeneralInfo() {
   const { t } = useTranslation();
 
   return (
-    <article>
-      <div id="info">
+    <article id="info">
+      <div id="infoContainer">
         <img src="/placeholder.png" />
         <h1>Sumu Vuori</h1>
         <p>{t("title")}</p>

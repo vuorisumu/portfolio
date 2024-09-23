@@ -1,6 +1,6 @@
 @use "theme";
 
-#info {
+#infoContainer {
     display: grid;
     grid-template-columns:150px auto;
     background: theme.$secondary-color;

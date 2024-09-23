@@ -4,7 +4,7 @@ function Contact() {
   const { t } = useTranslation();
 
   return (
-    <article>
+    <article id="contact">
       <h2>{t("contact")}</h2>
     </article>
   );
