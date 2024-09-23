@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #projects {
   display: flex;
 }
@@ -44,6 +45,24 @@
 #info img {
   grid-row: 1/3;
   width: 100%;
+}
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+}
+#about section {
+  flex: 50%;
+}
+#about section:last-of-type {
+  flex: 100%;
+}
+#about .skills li {
+  display: inline-block;
+}
+#about .skills li:not(:last-child)::after {
+  content: "•";
+  padding: 0 5px;
 }
 
 * {

@@ -1,0 +1,23 @@
+#about {
+    display: flex;
+    flex-wrap: wrap;
+
+    section {
+        flex: 50%;
+
+        &:last-of-type {
+            flex:100%;
+        }
+    }
+
+    .skills {
+        li {
+            display: inline-block;
+
+            &:not(:last-child)::after {
+                content: "•";
+                padding: 0 5px;
+            }
+        }
+    }
+}
