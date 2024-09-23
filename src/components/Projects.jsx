@@ -14,20 +14,22 @@ function Projects() {
     <article>
       <h2>{t("projectTitle")}</h2>
 
-      <div id="projectDisplay">
-        <h3>{selected.name}</h3>
-        <p>{selected.description}</p>
-      </div>
+      <div id="projects">
+        <div id="projectDisplay">
+          <h3>{selected.name}</h3>
+          <p>{selected.description}</p>
+        </div>
 
-      <ul className="projects">
-        {projects.map((project, index) => (
-          <li key={`project${index}`}>
-            <button onClick={() => setSelected(project)}>
-              <h3>{project.name}</h3>
-            </button>
-          </li>
-        ))}
-      </ul>
+        <ul className="projectButtons">
+          {projects.map((project, index) => (
+            <li key={`project${index}`}>
+              <button onClick={() => setSelected(project)}>
+                <h3>{project.name}</h3>
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
     </article>
   );
 }
