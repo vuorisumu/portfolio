@@ -19,11 +19,17 @@
     "projects": [
         {
             "name": "Project1",
-            "description": "Description of project1"
+            "description": ["Description of project1", "More"],
+            "links": [
+                {
+                    "text": "Link to x",
+                    "link": "#"
+                }
+            ]
         },
          {
             "name": "Project2",
-            "description": "Description of project2"
+            "description": ["Description of project2"]
         }
     ],
     "experience": [

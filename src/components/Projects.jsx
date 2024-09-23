@@ -17,7 +17,15 @@ function Projects() {
       <div id="projects">
         <div id="projectDisplay">
           <h3>{selected.name}</h3>
-          <p>{selected.description}</p>
+          {selected.description?.map((desc, index) => (
+            <p key={`desc${index}`}>{desc}</p>
+          ))}
+
+          {selected.links?.map((link, index) => (
+            <p key={`link${index}`}>
+              <a href={link.link}>{link.text}</a>
+            </p>
+          ))}
         </div>
 
         <ul className="projectButtons">

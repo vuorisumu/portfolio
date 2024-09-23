@@ -19,11 +19,11 @@
     "projects": [
         {
             "name": "Projekti1",
-            "description": "Kuvaus projekti 1"
+            "description": ["Kuvaus projekti 1"]
         },
         {
             "name": "Projekti2",
-            "description": "Kuvaus projekti 2"
+            "description": ["Kuvaus projekti 2"]
         }
     ],
     "experience": [
