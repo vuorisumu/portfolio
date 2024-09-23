@@ -5,8 +5,11 @@ function GeneralInfo() {
 
   return (
     <article>
-      <h1>Sumu Vuori</h1>
-      <p>{t("title")}</p>
+      <div id="info">
+        <img src="/placeholder.png" />
+        <h1>Sumu Vuori</h1>
+        <p>{t("title")}</p>
+      </div>
     </article>
   );
 }
