@@ -11,5 +11,25 @@
             "name": "Projekti2",
             "description": "Kuvaus projekti 2"
         }
+    ],
+    "experience": [
+        {
+            "name": "Työkokemus",
+            "contents": [
+                {
+                    "name": "Työkokemus 1",
+                    "description": "Kuvaus"
+                }
+            ]
+        },
+        {
+            "name": "Koulutus",
+            "contents": [
+                {
+                    "name": "Koulutus 1",
+                    "description": "Kuvaus"
+                }
+            ]
+        }
     ]
 }

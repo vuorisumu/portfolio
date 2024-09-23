@@ -11,5 +11,25 @@
             "name": "Project2",
             "description": "Description of project2"
         }
+    ],
+    "experience": [
+        {
+            "name": "Work experience",
+            "contents": [
+                {
+                    "name": "Work experience",
+                    "description": "Work description"
+                }
+            ]
+        },
+        {
+            "name": "Education",
+            "contents": [
+                {
+                    "name": "Education 1",
+                    "description": "Edu description"
+                }
+            ]
+        }
     ]
 }
