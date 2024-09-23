@@ -6,6 +6,7 @@ import Cv from "./components/Cv";
 import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Language from "./components/Language";
+import Theme from "./components/Theme";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 
         <div id="content">
           <Language />
+          <Theme />
           <main>
             <GeneralInfo />
             <About />
