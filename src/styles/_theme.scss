@@ -1,0 +1,21 @@
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$text-primary: var(--text-primary);
+$accent: var(--accent);
+$accent-secondary: var(--accent-secondary);
+
+:root {
+    --primary-color: #2e2e30;
+    --secondary-color: #3f3f42;
+    --text-primary: #f4eee0;
+    --accent: #f1b119;
+    --accent-secondary: #2f213b;
+}
+
+[data-theme="light"] {
+    --primary-color: #FAF7F0;
+    --secondary-color: #D8D2C2;
+    --text-primary: #4A4947;
+    --accent: #B17457;
+    --accent-secondary: #a58f84;
+}

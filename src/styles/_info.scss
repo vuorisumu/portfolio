@@ -1,6 +1,9 @@
+@use "theme";
+
 #info {
     display: grid;
     grid-template-columns:150px auto;
+    background: theme.$secondary-color;
 
     img {
         grid-row: 1/3;
