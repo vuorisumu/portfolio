@@ -10,21 +10,21 @@ import Language from "./components/Language";
 function App() {
   return (
     <Suspense fallback="loading">
-      <div>
+      <div id="container">
         <nav>
           <Nav />
         </nav>
 
-        <Language />
-
-        <main>
-          <GeneralInfo />
-          <About />
-          <Projects />
-          <Cv />
-          <Contact />
-        </main>
-
+        <div id="content">
+          <Language />
+          <main>
+            <GeneralInfo />
+            <About />
+            <Projects />
+            <Cv />
+            <Contact />
+          </main>
+        </div>
         <footer>
           <p>Sumu Vuori</p>
         </footer>
