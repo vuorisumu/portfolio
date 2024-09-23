@@ -67,8 +67,6 @@ ul {
 }
 
 #content {
-  width: -moz-fit-content;
-  width: fit-content;
   min-width: 370px;
   max-width: 500px;
   margin: auto;
