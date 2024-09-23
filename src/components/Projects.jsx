@@ -7,7 +7,7 @@ function Projects() {
 
   return (
     <article>
-      <h2>Projects</h2>
+      <h2>{t("projectTitle")}</h2>
 
       <ul>
         {projects.map((project, index) => (

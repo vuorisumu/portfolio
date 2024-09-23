@@ -2,6 +2,7 @@
     "title": "Tietojenkäsittelyn tradenomiopiskelija, ohjelmistokehitys",
     "about": "Tietoja minusta",
     "aboutDesc": "Tietoa tekstiä minusta",
+    "projectTitle": "Projektit",
     "projects": [
         {
             "name": "Projekti1",
@@ -34,5 +35,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "contact": "Yhteystiedot"
 }

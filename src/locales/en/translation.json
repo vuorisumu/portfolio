@@ -2,6 +2,7 @@
     "title": "Student, Business Information Systems, Software Development",
     "about": "About me",
     "aboutDesc": "Text describing me",
+    "projectTitle": "Projects",
     "projects": [
         {
             "name": "Project1",
@@ -34,5 +35,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "contact": "Contact"
 }
