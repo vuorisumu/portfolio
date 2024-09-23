@@ -33,6 +33,9 @@
   inset: 0;
   align-content: center;
 }
+#projects .projectButtons li h3.active, #projects .projectButtons button h3.active {
+  color: #838383;
+}
 
 * {
   margin: 0;

@@ -27,7 +27,9 @@ function Projects() {
                 <div className="imageHolder">
                   <img src="/placeholder.png" />
                 </div>
-                <h3>{project.name}</h3>
+                <h3 className={selected === project ? "active" : ""}>
+                  {project.name}
+                </h3>
               </button>
             </li>
           ))}

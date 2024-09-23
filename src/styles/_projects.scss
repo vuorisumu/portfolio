@@ -34,6 +34,10 @@
                 position: absolute;
                 inset:0;
                 align-content: center;
+
+                &.active {
+                    color: #838383;
+                }
             }
         }
     }
