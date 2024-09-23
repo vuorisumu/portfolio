@@ -24,6 +24,9 @@ function Projects() {
           {projects.map((project, index) => (
             <li key={`project${index}`}>
               <button onClick={() => setSelected(project)}>
+                <div className="imageHolder">
+                  <img src="/placeholder.png" />
+                </div>
                 <h3>{project.name}</h3>
               </button>
             </li>
