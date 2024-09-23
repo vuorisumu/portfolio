@@ -1,5 +1,4 @@
 import { Suspense } from "react";
-import "./App.css";
 import GeneralInfo from "./components/GeneralInfo";
 import Projects from "./components/Projects";
 import About from "./components/About";
