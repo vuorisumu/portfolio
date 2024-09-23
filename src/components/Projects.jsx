@@ -11,11 +11,11 @@ function Projects() {
   }, [projects]);
 
   return (
-    <article>
-      <h2>{t("projectTitle")}</h2>
-
-      <div id="projects">
+    <article id="projects">
+      <div id="projectContainer">
         <div id="projectDisplay">
+          <h2>{t("projectTitle")}</h2>
+
           <h3>{selected.name}</h3>
           {selected.description?.map((desc, index) => (
             <p key={`desc${index}`}>{desc}</p>

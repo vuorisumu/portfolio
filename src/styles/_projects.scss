@@ -1,4 +1,10 @@
+@use "theme";
+
 #projects {
+    background: theme.$secondary-color;
+}
+
+#projectContainer {
     display:flex;
 
     #projectDisplay {
