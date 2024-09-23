@@ -1,7 +1,20 @@
 {
     "title": "Tietojenkäsittelyn tradenomiopiskelija, ohjelmistokehitys",
     "about": "Tietoja minusta",
-    "aboutDesc": "Tietoa tekstiä minusta",
+    "aboutDesc": ["Tietoja minusta", "Lisää tietoa"],
+    "strengthsTitle": "Vahvuudet",
+    "strengths": [
+        {
+            "name": "Vahvuus 1",
+            "description": "Kuvaus"
+        }
+    ],
+    "skillsTitle": "Taidot",
+    "skills": [
+        "React",
+        "HTML",
+        "jne"
+    ],
     "projectTitle": "Projektit",
     "projects": [
         {
