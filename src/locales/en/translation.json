@@ -1,0 +1,15 @@
+{
+    "title": "Student, Business Information Systems, Software Development",
+    "about": "About me",
+    "aboutDesc": "Text describing me",
+    "projects": [
+        {
+            "name": "Project1",
+            "description": "Description of project1"
+        },
+         {
+            "name": "Project2",
+            "description": "Description of project2"
+        }
+    ]
+}
