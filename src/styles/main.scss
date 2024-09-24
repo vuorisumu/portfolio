@@ -56,3 +56,8 @@ $footer-height: 2.5rem;
     height: $footer-height;
     text-align: center;
   }
+
+  a {
+    color: theme.$accent;
+    text-decoration: none;
+  }
