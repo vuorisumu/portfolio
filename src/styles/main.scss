@@ -56,9 +56,12 @@ $footer-height: 2.5rem;
       &:nth-child(n+3) {
         min-height: 90vh;
       }
-      
+
       &:nth-child(2n+1):not(:first-of-type) {
         background: theme.$secondary-color;
+        h2 {
+          color: theme.$accent;
+        }
       }
     }
   }

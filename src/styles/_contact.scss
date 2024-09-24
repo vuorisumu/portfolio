@@ -1,3 +1,20 @@
 #contact {
     text-align: center;
+
+    img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        max-height: 300px;
+        border-radius: 50%;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
 }
