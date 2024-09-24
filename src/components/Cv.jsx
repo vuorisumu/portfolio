@@ -14,9 +14,7 @@ function Cv() {
               {expField.contents.map((exp, index) => (
                 <li key={`${expField.name}${index}`}>
                   <h3>{exp.name}</h3>
-                  <p>
-                    {exp.start} {exp.end ? `- ${exp.end}` : "->"}
-                  </p>
+                  <p>{exp.time}</p>
                   <p>{exp.description}</p>
                 </li>
               ))}

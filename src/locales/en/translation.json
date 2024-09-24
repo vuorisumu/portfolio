@@ -1,57 +1,245 @@
 {
     "title": "Student, Business Information Systems, Software Development",
     "about": "About me",
-    "aboutDesc": ["Text describing me", "More text"],
+    "aboutDesc": [
+        "I am currently a third year student at TAMK, studying Business Information Systems and specialising in fullstack software development. Previously I have also studied game development, animation and graphic design. I am especially passionate about problem solving, creating a good user experience and improving my skills as a developer.", 
+        "As a person I am positive and easy to approach. I enjoy doing volunteer work in various fields like event organizing and club activities. During my studies I was also a peer tutor for a year, hosted a coding workshop for a few months and currently I am a functionary for Syntaksi."
+    ],
     "strengthsTitle": "Strengths",
     "strengths": [
         {
-            "name": "Strength 1",
-            "description": "Description of strength"
+            "name": "Problem solving",
+            "description": "My favorite thing about coding is problem-solving. I love trying to come up with the most effective solution to a given problem."
+        },
+        {
+            "name": "Versatility",
+            "description": "I love to try out new things and I'm a fast learner. I have a great variety of interests and no problem stepping out of my usual workflow to try out something new."
+        },
+        {
+            "name": "Detail-oriented",
+            "description": "I find it important to be careful and put attention to detail. If I see something small that should be fixed I have no problem pointing it out."
         }
     ],
     "skillsTitle": "Skills",
     "skills": [
         "React",
+        "Javascript",
+        "Node.js",
+        "Python",
+        "SQL",
+        "C#",
+        "Java",
+        "Kotlin",
+        "Swift",
+        "Flutter",
         "HTML",
-        "etc"
+        "CSS/SCSS",
+        "Git",
+        "Docker",
+        "Data analysis",
+        "Agile Methodology",
+        "UX",
+        "UML",
+        "Web design",
+        "Unity",
+        "Graphic Design"
     ],
     "projectTitle": "Projects",
     "projects": [
         {
-            "name": "Project1",
-            "description": ["Description of project1", "More"],
+            "name": "Listmaker 9000",
+            "time": "Dec 2023 ->",
+            "description": [
+                "Listmaker 9000 is my passion project, a page where you can make top list templates and use them as bases for your top lists.", 
+                "The backend contains an Express REST API that connects to the database hosted on Oracle Cloud. All data is validated using Joi schemas before sending it to the database. Passwords are encrypted with bcrypt and JWT is used for authentication.",
+                "The frontend is made with React.js and styled with SCSS with mobile first approach. The whole project is wrapped inside a Docker and uploaded on render.com"
+            ],
             "links": [
                 {
-                    "text": "Link to x",
-                    "link": "#"
+                    "text": "Listmaker 9000",
+                    "link": "https://toplistmaker.onrender.com/"
+                },
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/vuorisumu/toplist-project"
                 }
             ]
         },
          {
-            "name": "Project2",
-            "description": ["Description of project2"]
+            "name": "SQLittaaja",
+            "time": "Spring 2024",
+            "description": [
+                "SQLittaaja is a tool designed and developed for teachers that use Moodle as a learning platform on their SQLite courses. It automates the checking and grading SQLite exercises, flagging possible cases of plagiarism.",
+                "It is programmed with Python, using Black code formatter, GitHub flow and conventional commits, adhering to Semantic Versioning. Along with programming, I was wesponsible for the documentation, including technical document and various charts."
+            ],
+            "links": [
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/sqlittaajat/sqlittaaja"
+                }
+            ]
+        },
+        {
+            "name": "Work it Out!",
+            "time": "Spring 2023",
+            "description": [
+                "Work it Out! is a mobile game made for TYKKY. During this project I was a programmer, web designer and responsible for project management. My main task as a programmer was the structure and the basic functionality of the game. On top of that I was also heavily involved with the game design, story and writing some of the characters, texts and documentation for the game.",
+                "In the project we used Scrum as the project management framework, and made the game using Unity and C#. The project began on January 2023 and ended in May of the same year.",
+                "The game can be downloaded from Google Play, and it runs on Android phones."
+            ],
+            "links": [
+                {
+                    "text": "Google Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.placbo.workitout&pli=1"
+                },
+                {
+                    "text": "Website of Work it Out!",
+                    "link": "https://webpages.tuni.fi/22tiko2c/eng.html"
+                },
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/Patrick-Palmroos/paras-peliprojekti"
+                }
+            ]
+        },
+        {
+            "name": "Connectify",
+            "time": "Spring 2023",
+            "description": [
+                "Connectify is a mobile game made for TYKKY. This project began on January 2023 and ended on May of the same year, and I joined to the team as a programmer in February while also working on Work it Out! My job in this project was to create the structure and the basic functionality of the game."
+            ],
+            "links": [
+                {
+                    "text": "Google Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.pixelpros.connectify&pli=1"
+                },
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/Harsalmin/Spring-2023-Game-Project"
+                }
+            ]
+        },
+        {
+            "name": "Sammakkosanomat website",
+            "time": "Autumn 2023",
+            "description": [
+                "Sammakkosanomat is a website for a fictional online community. I made the website to showcase my HTML and SCSS skills, using a bit of Javascript as well. It is a mobile-first page that uses a variety of different SCSS techniques."
+            ],
+            "links": [
+                {
+                    "text": "Link to the webpage",
+                    "link": "https://homepages.tuni.fi/sumu.vuori/sass/"
+                }
+            ]
+        },
+        {
+            "name": "John Shepard website",
+            "time": "Spring 2023",
+            "description": [
+                "This website showcases what I learned during a WWW-techniques course and tells the story of the main character of Mass Effect game series.",
+                "The website is created with HTML, CSS and a bit of Javascript using mobile first approach."
+            ],
+            "links": [
+                {
+                    "text": "Link to the webpage",
+                    "link": "https://homepages.tuni.fi/sumu.vuori/shepard/"
+                }
+            ]
+        },
+        {
+            "name": "Portfolio hub",
+            "time": "Autumn 2023",
+            "description": [
+                "For a Git course we made a portfolio hub that links all team members' portfolios to a single page. I made my own portfolio page as well as the hub page using HTML, SCSS and a bit of Javascript."
+            ],
+            "links": [
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/vuorisumu/Versionhallinta_Webportfolio"
+                },
+                {
+                    "text": "My portfolio page",
+                    "link": "https://homepages.tuni.fi/sumu.vuori/cv/"
+                }
+            ]
+        },
+        {
+            "name": "The Reclaimer: Root force attack",
+            "time": "Feb 2023",
+            "description": [
+                "The Reclaimer: Root force attack is a Global Game Jam game I worked on in January 2023. I worked on some utility scripts like building randomization, blood splatters and menu functionality, and made graphics like blood splatters and the main menu screen."
+            ],
+            "links": [
+                {
+                    "text": "The Reclaimer: Root force attack on GGJ",
+                    "link": "https://v3.globalgamejam.org/2023/games/reclaimer-root-force-attack-7"
+                },
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/cloudmoss/jam_roots"
+                }
+            ]
         }
     ],
     "experienceTitle": "Experience",
     "experience": [
         {
-            "name": "Work experience",
+            "name": "Education",
             "contents": [
                 {
-                    "name": "Work experience",
-                    "start": "01.01.2020",
-                    "description": "Work description"
+                    "name": "TAMK, Business Information Systems",
+                    "time": "2022 ->",
+                    "description": "In TAMK I'm specialising in Software Production, aiming to become a fullstack-developer. The studies contain a great variety of topics including, but not limited to, Java, Javascript, React, MySQL, Agile Methodology and Git."
+                },
+                {
+                    "name": "Sataedu Nakkila, Media assistant",
+                    "time": "2013 - 2016",
+                    "description": "In Sataedu I specialised in Animation and Games, my main focus being on programming. During these studies I mainly worked with Unity and C#, but also learned about 3D-modeling, animation, level design, concept art and project management."
+                },
+                {
+                    "name": "Sataedu Nakkila, Graphic Design",
+                    "time": "2011 - 2013",
+                    "description": "Before switching to study game development I studied graphic design for two years. I learned about logo design, web design, page layout and entrepreneurship."
                 }
             ]
         },
         {
-            "name": "Education",
+            "name": "Work experience",
             "contents": [
                 {
-                    "name": "Education 1",
-                    "start": "01.01.2020",
-                    "end": "31.12.2020",
-                    "description": "Edu description"
+                    "name": "Web design for Kalpaveljet",
+                    "time": "Summer 2023",
+                    "description": "In collaboration with Adalia, I used Craft CMS, templates and blocks provided by Adalia, and made a new design for the website of Kalpaveljet."
+                }, 
+                {
+                    "name": "Pelipaja Hervanta, Games Workshop",
+                    "time": "2018 - 2019",
+                    "description": "During my time at the workshop, I developed game demos for mobile devices with Unity and C# and helped others with their codes. I also practised low poly 3D-modeling."
+                },
+                {
+                    "name": "PlaySys internship",
+                    "time": "Spring 2016",
+                    "description": "During my internship at PlaySys I did level design for a game for Samsung Gear VR, and designed and made a mobile minigame with a coding partner. I also made 2D animations for Samsung Gear S3."
+                }
+            ]
+        },
+        {
+            "name": "Others",
+            "contents": [
+                {
+                    "name": "Functionary for Syntaksi",
+                    "time": "Summer 2024 ->",
+                    "description": "I am currently a functionary for our subject club called Syntaksi. I help with event organizing, graphic design and other tasks whenever needed."
+                },
+                {
+                    "name": "Code Workshop Host",
+                    "time": "Autumn 2023",
+                    "description": "I co-hosted a weekly workshop for first year students who needed help with their Java or SQL exercises. I also made and managed a Discord channel for the workshop, where the students could ask for help even outside the workshop hours."
+                },
+                {
+                    "name": "Peer tutor",
+                    "time": "2023 - 2024",
+                    "description": "As a peer tutor I helped new students with getting started, getting to know each others and familiarising themselves with the school and the city. I also made and managed a Discord server for all new Business Information Systems students and their teacher tutors. The server was then made into a template that the peer tutors after me can use."
                 }
             ]
         }
