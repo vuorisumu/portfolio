@@ -20,6 +20,17 @@ nav {
         }
     }
 
+    a {
+        color: theme.$text-primary;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0 3px;
+
+        .active {
+            color: theme.$accent;
+        }
+    }
+
     select {
         padding: 2px 5px;
         background: transparent;
