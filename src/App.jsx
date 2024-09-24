@@ -40,7 +40,7 @@ function App() {
             </main>
           </div>
           <footer>
-            <p>Sumu Vuori</p>
+            <p>Sumu Vuori 2024</p>
           </footer>
         </div>
       </Suspense>
