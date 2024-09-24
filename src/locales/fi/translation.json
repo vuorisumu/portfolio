@@ -49,6 +49,10 @@
         {
             "name": "Listmaker 9000",
             "time": "Joulukuu 2023 ->",
+            "cover": "listmaker-cover.png",
+            "images": [
+                "listmaker.png"
+            ],
             "description": [
                 "Listmaker 9000 on minun intohimoprojektini. Se on sivusto, jossa voi luoda listapohjia ja käyttää niitä top-listojen tekemiseen.", 
                 "Backend-puoli koostuu Express REST APIsta, joka ottaa yhteyden Oracle Cloudissa sijaitsevaan tietokantaan. Kaikki data validoidaan Joi-kaavalla ennen tietokantaan lähettämistä. Salasanat salataan bcryptillä ja todennuksessa käytetään JWT:tä.",
@@ -82,6 +86,11 @@
         {
             "name": "Work it Out!",
             "time": "Kevät 2023",
+            "cover": "wio-cover.png",
+            "images": [
+                "workitout.png",
+                "workitout-page.png"
+            ],
             "description": [
                 "Work it Out! on mobiilipeli, joka on kehitetty TYKKY-hankkeelle. Toimin tässä projektissa koodarina, web-designerina ja projektinvetäjänä. Minun pääasiallinen tehtäväni koodarina oli huolehtia pelin rakenteesta ja perustoiminnallisuudesta. Lisäksi olin vahvasti osallisena pelin suunnittelussa, tarinan ja hahmojen kirjoittamisessa, sekä pelin dokumentoinnissa.",
                 "Työnkulku tapahtui scrum-menetelmällä ja itse peli kehitettiin Unityssä C#-kielellä. Projekti käynnistyi tammikuussa 2023 ja tuli päätökseen saman vuoden toukokuussa.",
@@ -105,6 +114,10 @@
         {
             "name": "Connectify",
             "time": "Kevät 2023",
+            "cover": "connectify-cover.png",
+            "images": [
+                "connectify.png"
+            ],
             "description": [
                 "Connectify on mobiilipeli, joka on kehitetty TYKKY-hankkeelle. Projekti käynnistettiin tammikuussa 2023 ja tuli päätökseen saman vuoden toukokuussa. Minä liityin projektitiimiin helmikuussa 2023 ja toimin Work it Out! -projektin ohella Connectifyn pääkoodarina. Minun tehtäväni oli huolehtia pelin rakenteesta ja perustoiminnallisuudesta."
             ],
@@ -122,6 +135,10 @@
         {
             "name": "Sammakkosanomat-verkkosivu",
             "time": "Syksy 2023",
+            "cover": "sammakkosanomat-cover.png",
+            "images": [
+                "sammakkosanomat.png"
+            ],
             "description": [
                 "Sammakkosanomat on verkkosivu kuvitteelliselle internetyhteisölle. Tein verkkosivun esitelläkseni HTML- ja SCSS-taitojani käyttäen myös hieman Javascriptiä. Sivusto on suunniteltu mobile first -ideologialla ja hyödyntää monipuolisesti SCSS-tekniikoita."
             ],
@@ -135,6 +152,10 @@
         {
             "name": "John Shepard-verkkosivu",
             "time": "Kevät 2023",
+            "cover": "shepard-cover.png",
+            "images": [
+                "shepard.png"
+            ],
             "description": [
                 "Tämä verkkosivu on luotu esittämään, mitä opin WWW-tekniikkakurssin aikana. Sivuston aiheena on Mass Effect -pelisarjan päähenkilö.",
                 "Verkkosivu on luotu HTML:llä ja tyylitelty CSS:llä ja osaan toiminnallisuudesta on käytetty Javascriptiä. Se on suunniteltu mobile first -ideologialla."
@@ -149,6 +170,10 @@
         {
             "name": "Portfoliokeskiö",
             "time": "Syksy 2023",
+            "cover": "portfolio.png",
+            "images": [
+                "portfoliopage.png"
+            ],
             "description": [
                 "Versionhallintakurssia varten loimme portfoliokeskiön, joka linkittää kaikkien kehitystiimin jäsenten portfoliot samalle sivulle. Minä tein oman portfoliosivuni, sekä suurimman osan keskiösivusta HTML:llä, tyylitellen SCSS:llä ja hyödyntäen Javascriptiä toiminnallisuudessa."
             ],
@@ -165,7 +190,11 @@
         },
         {
             "name": "The Reclaimer: Root force attack",
-            "time": "Helmikuu 2023",
+            "time": "Tammikuu 2023",
+            "cover": "reclaimer-cover.jpg",
+            "images": [
+                "reclaimer.jpg"
+            ],
             "description": [
                 "The Reclaimer: Root force attack on Global Game Jameilla tehty peli, jonka kehittämiseen osallistuin tammikuussa 2023. Työstin apukoodeja, kuten rakennusten randomisointia, veriroiskeita ja valikkotoiminnallisuuksia. Lisäksi tein grafiikoita, kuten veriroiskeita ja päävalikon taustakuvan."
             ],
