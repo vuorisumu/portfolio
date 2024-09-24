@@ -1,22 +1,4 @@
 @charset "UTF-8";
-nav {
-  max-width: 900px;
-  margin: auto;
-  padding: 10px 40px;
-}
-nav div {
-  display: flex;
-  justify-content: space-between;
-}
-nav div ul {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-nav div ul li {
-  display: inline-block;
-}
-
 :root {
   --primary-color: #2e2e30;
   --secondary-color: #3f3f42;
@@ -81,6 +63,33 @@ nav div ul li {
 .toggle:hover .tooltip {
   visibility: visible;
   opacity: 1;
+}
+
+nav {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 40px;
+}
+nav div {
+  display: flex;
+  justify-content: space-between;
+}
+nav div ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+nav div ul li {
+  display: inline-block;
+}
+nav select {
+  padding: 2px 5px;
+  background: transparent;
+  color: var(--text-primary);
+  border: none;
+}
+nav select option {
+  color: #000;
 }
 
 #projects {

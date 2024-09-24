@@ -1,3 +1,5 @@
+@use "theme";
+
 nav {
     max-width: 900px;
     margin: auto;
@@ -15,6 +17,17 @@ nav {
             li {
                 display: inline-block;
             }
+        }
+    }
+
+    select {
+        padding: 2px 5px;
+        background: transparent;
+        color: theme.$text-primary;
+        border:none;
+
+        option {
+            color: #000;
         }
     }
 }
