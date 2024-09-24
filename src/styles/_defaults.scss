@@ -20,10 +20,15 @@
     }
 }
 
-$verticalPadding: 0px;
+$topPadding: 5px;
+$bottomPadding: 50px;
 $sidePadding: 35px;
 @mixin articlePadding() {
-    padding: $verticalPadding $sidePadding;
+    padding: $topPadding $sidePadding $bottomPadding $sidePadding;
+}
+
+article section {
+    padding: 10px 0;
 }
 
 h2 {

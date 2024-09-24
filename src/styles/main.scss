@@ -70,3 +70,11 @@ $footer-height: 2.5rem;
     color: theme.$accent;
     text-decoration: none;
   }
+
+  [data-theme="light"] {
+    a {
+      color: theme.$text-primary;
+      font-weight: 600;
+      text-decoration: underline theme.$accent;
+    }
+  }

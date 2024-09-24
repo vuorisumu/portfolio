@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root {
   --primary-color: #2e2e30;
-  --secondary-color: #3f3f42;
+  --secondary-color: #262627;
   --text-primary: #f4eee0;
   --accent: #f0ba3b;
   --accent-secondary: #2f213b;
@@ -9,7 +9,7 @@
 
 [data-theme=light] {
   --primary-color: #FAF7F0;
-  --secondary-color: #D8D2C2;
+  --secondary-color: #e9dfcf;
   --text-primary: #4A4947;
   --accent: #B17457;
   --accent-secondary: #a58f84;
@@ -100,6 +100,10 @@ nav select option {
   color: #000;
 }
 
+article section {
+  padding: 10px 0;
+}
+
 h2 {
   font-size: 1.8rem;
   padding: 15px 0;
@@ -164,6 +168,7 @@ p {
   display: grid;
   align-items: start;
   grid-template-columns: 150px auto;
+  color: #fff;
 }
 #info #infoContainer :not(:first-child) {
   background: linear-gradient(to right, var(--accent-secondary) 50%, transparent);
@@ -304,7 +309,7 @@ main > section:nth-child(2n+1):not(:first-of-type) {
 }
 
 main article {
-  padding: 0px 35px;
+  padding: 5px 35px 50px 35px;
   max-width: 900px;
   margin: auto;
 }
@@ -321,4 +326,11 @@ footer {
 a {
   color: var(--accent);
   text-decoration: none;
+}
+
+[data-theme=light] a {
+  color: var(--text-primary);
+  font-weight: 600;
+  -webkit-text-decoration: underline var(--accent);
+          text-decoration: underline var(--accent);
 }/*# sourceMappingURL=main.css.map */
