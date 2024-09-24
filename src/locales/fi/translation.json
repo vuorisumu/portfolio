@@ -1,51 +1,245 @@
 {
     "title": "Tietojenkäsittelyn tradenomiopiskelija, ohjelmistokehitys",
     "about": "Tietoja minusta",
-    "aboutDesc": ["Tietoja minusta", "Lisää tietoa"],
+    "aboutDesc": [
+        "Olen kolmannen vuoden tietojenkäsittelyn opiskelija TAMKissa ja erikoistun fullstack-ohjelmistokehitykseen. Aiemmin olen opiskellut myös pelinkehitystä, animointia ja graafista suunnittelua. Erityisesti olen intohimoinen ongelmanratkonnasta, hyvän käyttäjäkokemuksen luomisesta ja taitojeni kehittämisestä ohjelmoijana.", 
+        "Luonteeltani olen positiivinen ja helposti lähestyttävä. Nautin monenlaisten vapaaehtoistöiden tekemisestä, kuten tapahtumien järjestämisestä ja kerhotoiminnasta. Opintojeni aikana toimin vuoden ajan vertaistuutorina, sekä muutaman kuukauden koodipajan vetäjänä ja tällä hetkellä olen toimihenkilönä ainekerhossamme Syntaksissa."
+    ],
     "strengthsTitle": "Vahvuudet",
     "strengths": [
         {
-            "name": "Vahvuus 1",
-            "description": "Kuvaus"
+            "name": "Ongelmanratkonta",
+            "description": "Lempiasiani koodauksessa on ongelmanratkonta. Nautin haasteista, joissa minun tarvitsee keksiä johonkin ongelmaan mahdollisimman tehokas ratkaisu."
+        },
+        {
+            "name": "Monipuolisuus",
+            "description": "Nautin uusien asioiden kokeilemisesta ja olen nopea oppimaan. Minulla on laaja skaala kiinnostuksenkohteita, eikä minulle ole ongelma poiketa tyypillisestä työnkulustani kokeillakseni jotakin uutta."
+        },
+        {
+            "name": "Tarkkuus",
+            "description": "Minulle huolellisuus ja yksityiskohtiin panostaminen ovat tärkeitä asioita. En pelkää huomauttaa, jos havaitsen korjausta kaipaavan pienen ongelman."
         }
     ],
     "skillsTitle": "Taidot",
     "skills": [
         "React",
+        "Javascript",
+        "Node.js",
+        "Python",
+        "SQL",
+        "C#",
+        "Java",
+        "Kotlin",
+        "Swift",
+        "Flutter",
         "HTML",
-        "jne"
+        "CSS/SCSS",
+        "Git",
+        "Docker",
+        "Data-analytiikka",
+        "Ketterät menetelmät",
+        "UX",
+        "UML",
+        "Web design",
+        "Unity",
+        "Graafinen suunnittelu"
     ],
     "projectTitle": "Projektit",
     "projects": [
         {
-            "name": "Projekti1",
-            "description": ["Kuvaus projekti 1"]
+            "name": "Listmaker 9000",
+            "time": "Joulukuu 2023 ->",
+            "description": [
+                "Listmaker 9000 on minun intohimoprojektini. Se on sivusto, jossa voi luoda listapohjia ja käyttää niitä top-listojen tekemiseen.", 
+                "Backend-puoli koostuu Express REST APIsta, joka ottaa yhteyden Oracle Cloudissa sijaitsevaan tietokantaan. Kaikki data validoidaan Joi-kaavalla ennen tietokantaan lähettämistä. Salasanat salataan bcryptillä ja todennuksessa käytetään JWT:tä.",
+                "Frontend on luotu React.js:llä ja tyylitelty SCSS:llä mobile first -ideologialla. Koko projekti on kontitettu Dockeriin ja ladattu render.comiin."
+            ],
+            "links": [
+                {
+                    "text": "Listmaker 9000",
+                    "link": "https://toplistmaker.onrender.com/"
+                },
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/vuorisumu/toplist-project"
+                }
+            ]
+        },
+         {
+            "name": "SQLittaaja",
+            "time": "Kevät 2024",
+            "description": [
+                "SQLittaaja on työkalu, joka on suunniteltu ja kehitetty opettajille, jotka käyttävät Moodlea opetusalustana SQLite-kursseilla. Se automatisoi SQLite-tehtävien tarkastamisen ja arvioimisen, huomauttaen mahdollisista plagiaateista.",
+                "Se on koodattu Pythonilla käyttäen Black-muotoilijaa, GitHub flow-työnkulkua ja Conventional Commits -tyyliä, noudattaen semanttista versiointia. Ohjelmoinnin lisäksi minun vastuullani oli projektin dokumentointi, mukaanlukien tekninen dokumentti ja tarvittavat kaaviot."
+            ],
+            "links": [
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/sqlittaajat/sqlittaaja"
+                }
+            ]
         },
         {
-            "name": "Projekti2",
-            "description": ["Kuvaus projekti 2"]
+            "name": "Work it Out!",
+            "time": "Kevät 2023",
+            "description": [
+                "Work it Out! on mobiilipeli, joka on kehitetty TYKKY-hankkeelle. Toimin tässä projektissa koodarina, web-designerina ja projektinvetäjänä. Minun pääasiallinen tehtäväni koodarina oli huolehtia pelin rakenteesta ja perustoiminnallisuudesta. Lisäksi olin vahvasti osallisena pelin suunnittelussa, tarinan ja hahmojen kirjoittamisessa, sekä pelin dokumentoinnissa.",
+                "Työnkulku tapahtui scrum-menetelmällä ja itse peli kehitettiin Unityssä C#-kielellä. Projekti käynnistyi tammikuussa 2023 ja tuli päätökseen saman vuoden toukokuussa.",
+                "Pelin voi ladata Google Play -kaupasta ja se toimii Android-laitteilla."
+            ],
+            "links": [
+                {
+                    "text": "Google Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.placbo.workitout&pli=1"
+                },
+                {
+                    "text": "Work it Out! verkkosivut",
+                    "link": "https://webpages.tuni.fi/22tiko2c/eng.html"
+                },
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/Patrick-Palmroos/paras-peliprojekti"
+                }
+            ]
+        },
+        {
+            "name": "Connectify",
+            "time": "Kevät 2023",
+            "description": [
+                "Connectify on mobiilipeli, joka on kehitetty TYKKY-hankkeelle. Projekti käynnistettiin tammikuussa 2023 ja tuli päätökseen saman vuoden toukokuussa. Minä liityin projektitiimiin helmikuussa 2023 ja toimin Work it Out! -projektin ohella Connectifyn pääkoodarina. Minun tehtäväni oli huolehtia pelin rakenteesta ja perustoiminnallisuudesta."
+            ],
+            "links": [
+                {
+                    "text": "Google Play",
+                    "link": "https://play.google.com/store/apps/details?id=com.pixelpros.connectify&pli=1"
+                },
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/Harsalmin/Spring-2023-Game-Project"
+                }
+            ]
+        },
+        {
+            "name": "Sammakkosanomat-verkkosivu",
+            "time": "Syksy 2023",
+            "description": [
+                "Sammakkosanomat on verkkosivu kuvitteelliselle internetyhteisölle. Tein verkkosivun esitelläkseni HTML- ja SCSS-taitojani käyttäen myös hieman Javascriptiä. Sivusto on suunniteltu mobile first -ideologialla ja hyödyntää monipuolisesti SCSS-tekniikoita."
+            ],
+            "links": [
+                {
+                    "text": "Linkki verkkosivulle",
+                    "link": "https://homepages.tuni.fi/sumu.vuori/sass/"
+                }
+            ]
+        },
+        {
+            "name": "John Shepard-verkkosivu",
+            "time": "Kevät 2023",
+            "description": [
+                "Tämä verkkosivu on luotu esittämään, mitä opin WWW-tekniikkakurssin aikana. Sivuston aiheena on Mass Effect -pelisarjan päähenkilö.",
+                "Verkkosivu on luotu HTML:llä ja tyylitelty CSS:llä ja osaan toiminnallisuudesta on käytetty Javascriptiä. Se on suunniteltu mobile first -ideologialla."
+            ],
+            "links": [
+                {
+                    "text": "Linkki verkkosivulle",
+                    "link": "https://homepages.tuni.fi/sumu.vuori/shepard/"
+                }
+            ]
+        },
+        {
+            "name": "Portfoliokeskiö",
+            "time": "Syksy 2023",
+            "description": [
+                "Versionhallintakurssia varten loimme portfoliokeskiön, joka linkittää kaikkien kehitystiimin jäsenten portfoliot samalle sivulle. Minä tein oman portfoliosivuni, sekä suurimman osan keskiösivusta HTML:llä, tyylitellen SCSS:llä ja hyödyntäen Javascriptiä toiminnallisuudessa."
+            ],
+            "links": [
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/vuorisumu/Versionhallinta_Webportfolio"
+                },
+                {
+                    "text": "Minun portfoliosivuni",
+                    "link": "https://homepages.tuni.fi/sumu.vuori/cv/"
+                }
+            ]
+        },
+        {
+            "name": "The Reclaimer: Root force attack",
+            "time": "Helmikuu 2023",
+            "description": [
+                "The Reclaimer: Root force attack on Global Game Jameilla tehty peli, jonka kehittämiseen osallistuin tammikuussa 2023. Työstin apukoodeja, kuten rakennusten randomisointia, veriroiskeita ja valikkotoiminnallisuuksia. Lisäksi tein grafiikoita, kuten veriroiskeita ja päävalikon taustakuvan."
+            ],
+            "links": [
+                {
+                    "text": "The Reclaimer: Root force attack - GGJ",
+                    "link": "https://v3.globalgamejam.org/2023/games/reclaimer-root-force-attack-7"
+                },
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/cloudmoss/jam_roots"
+                }
+            ]
         }
     ],
     "experienceTitle": "Kokemus",
     "experience": [
         {
-            "name": "Työkokemus",
+            "name": "Koulutus",
             "contents": [
                 {
-                    "name": "Työkokemus 1",
-                    "start": "01.01.2020",
-                    "description": "Kuvaus"
+                    "name": "TAMK, Tietojenkäsittely",
+                    "time": "2022 ->",
+                    "description": "TAMKissa erikoistun fullstack-ohjelmistokehitykseen. Opinnot sisältävät monipuolisesti ohjelmistotuotantoon liittyviä aiheita, kuten Java, Javascript, React, MySQL, ketterät menetelmät ja versionhallinta."
+                },
+                {
+                    "name": "Sataedu Nakkila, Media-assistentti",
+                    "time": "2013 - 2016",
+                    "description": "Sataedussa erikoistuin animaatioon ja peleihin, keskittyen erityisesti peliohjelmointiin. Opintojeni aikana työskentelin pääasiassa Unityn ja C#:n parissa, mutta opin myös 3D-mallinnusta, animointia, level designia, konseptitaidetta ja projektinhallintaa."
+                },
+                {
+                    "name": "Sataedu Nakkila, Graafinen suunnittelu",
+                    "time": "2011 - 2013",
+                    "description": "Ennen pelialalle vaihtamista opiskelin kaksi vuotta graafista suunnittelua. Näiden opintojen aikana opin logosuunnittelua, web designia, taittoa ja yrittäjyyttä."
                 }
             ]
         },
         {
-            "name": "Koulutus",
+            "name": "Työkokemus",
             "contents": [
                 {
-                    "name": "Koulutus 1",
-                    "start": "01.01.2020",
-                    "end": "31.12.2020",
-                    "description": "Kuvaus"
+                    "name": "Web design Kalpaveljille",
+                    "time": "Kesä 2023",
+                    "description": "Yhteistyössä Adalian kanssa käytin Craft CMS-kehitysympäristöä luodakseni uuden ilmeen Kalpaveljien verkkosivuille."
+                }, 
+                {
+                    "name": "Pelipaja Hervanta",
+                    "time": "2018 - 2019",
+                    "description": "Pelipajalla ollessani kehitin pelidemoja mobiililaitteille Unityssä C#-kielellä ja autoin muita koodauksessa. Harjoittelin myös low poly 3D-mallinnusta."
+                },
+                {
+                    "name": "PlaySys, työharjoittelu",
+                    "time": "Kevät 2016",
+                    "description": "Työharjoittelun aikana tein level designia Samsung Gear VR-pelille, sekä suunnittelin ja kehitin minipelin mobiililaitteelle koodausparin kanssa. Lisäksi tein 2D-animaatioita Samsung Gear S3:lle."
+                }
+            ]
+        },
+        {
+            "name": "Muu kokemus",
+            "contents": [
+                {
+                    "name": "Syntaksin toimihenkilö",
+                    "time": "Kesä 2024 ->",
+                    "description": "Tällä hetkellä toimin ainekerhomme Syntaksin toimihenkilönä. Autan tapahtumien järjestämisessä, graafisessa suunnittelussa ja muissa tehtävissä tarpeen mukaan."
+                },
+                {
+                    "name": "Koodipajan vetäjä",
+                    "time": "Syksy 2023",
+                    "description": "Toimin viikottain toisena koodipajan vetäjänä ensimmäisen vuoden opiskelijoille, jotka tarvitsivat apua heidän Java- ja SQL-tehtävissä. Lisäksi tein ja ylläpidin koodipajan Discord-kanavaa, jossa opiskelijat voivat pyytää apua myös pajatuntien ulkopuolella."
+                },
+                {
+                    "name": "Vertaistuutori",
+                    "time": "2023 - 2024",
+                    "description": "Vertaistuutorina autoin uusia opiskelijoita pääsemään alkuun ja tutustumaan sekä toisiinsa, että itse kouluun ja Tampereen kaupunkiin. Lisäksi tein ja ylläpidin koko tietojenkäsittelyopiskelijoiden vuosikurssin Discord-palvelinta, jossa oli lisäksi heidän opiskelija- ja opettajatuutorinsa. Palvelimesta tehtiin sittemmin pohja, jota myös tulevat vertaistuutorit voivat käyttää."
                 }
             ]
         }
