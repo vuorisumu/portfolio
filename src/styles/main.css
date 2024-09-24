@@ -187,11 +187,19 @@ p {
 
 #aboutContainer {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0px 40px;
 }
 #aboutContainer section:last-of-type {
   grid-column: 1/3;
+}
+#aboutContainer section:last-of-type h2 {
+  text-align: center;
+}
+#aboutContainer section:last-of-type ul:not(.skills) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 40px;
 }
 #aboutContainer #strengths ul li {
   padding-left: 30px;
@@ -229,11 +237,19 @@ p {
 
 #experience {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0px 40px;
 }
 #experience section:last-of-type {
   grid-column: 1/3;
+}
+#experience section:last-of-type h2 {
+  text-align: center;
+}
+#experience section:last-of-type ul:not(.skills) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 40px;
 }
 #experience h3 {
   color: var(--accent);
