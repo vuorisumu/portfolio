@@ -3,7 +3,7 @@
     "about": "About me",
     "aboutDesc": [
         "I am currently a third year student at TAMK, studying Business Information Systems and specialising in fullstack software development. Previously I have also studied game development, animation and graphic design. I am especially passionate about problem solving, creating a good user experience and improving my skills as a developer.", 
-        "As a person I am positive and easy to approach. I enjoy doing volunteer work in various fields like event organizing and club activities. During my studies I was also a peer tutor for a year, hosted a coding workshop for a few months and currently I am a functionary for Syntaksi."
+        "As a person I am positive and easy to approach. I enjoy doing volunteer work in various fields like event organizing and club activities. During my studies I was also a peer tutor for a year, hosted a coding workshop for a few months and currently I am a functionary for our subject club, Syntaksi."
     ],
     "strengthsTitle": "Strengths",
     "strengths": [
@@ -165,7 +165,7 @@
         },
         {
             "name": "The Reclaimer: Root force attack",
-            "time": "Feb 2023",
+            "time": "Jan 2023",
             "description": [
                 "The Reclaimer: Root force attack is a Global Game Jam game I worked on in January 2023. I worked on some utility scripts like building randomization, blood splatters and menu functionality, and made graphics like blood splatters and the main menu screen."
             ],
@@ -189,7 +189,7 @@
                 {
                     "name": "TAMK, Business Information Systems",
                     "time": "2022 ->",
-                    "description": "In TAMK I'm specialising in Software Production, aiming to become a fullstack-developer. The studies contain a great variety of topics including, but not limited to, Java, Javascript, React, MySQL, Agile Methodology and Git."
+                    "description": "In TAMK I'm specialising in fullstack software development. The studies contain a great variety of topics including, but not limited to, Java, Javascript, React, MySQL, Mobile development, Agile Methodology and Git."
                 },
                 {
                     "name": "Sataedu Nakkila, Media assistant",
