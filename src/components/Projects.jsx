@@ -22,7 +22,9 @@ function Projects() {
 
           {selected.links?.map((link, index) => (
             <p key={`link${index}`}>
-              <a href={link.link}>{link.text}</a>
+              <a href={link.link} target="_blank">
+                {link.text}
+              </a>
             </p>
           ))}
         </div>
