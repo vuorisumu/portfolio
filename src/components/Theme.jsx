@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function Theme() {
   const [darkTheme, setDarkTheme] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const prevTheme = localStorage.getItem("theme");
@@ -35,6 +37,9 @@ function Theme() {
         onChange={handleThemeToggle}
       />
       <label htmlFor="toggleTheme"></label>
+      <span className="tooltip">
+        {darkTheme ? t("switchToLight") : t("switchToDark")}
+      </span>
     </div>
   );
 }

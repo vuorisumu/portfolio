@@ -19,3 +19,58 @@ $accent-secondary: var(--accent-secondary);
     --accent: #B17457;
     --accent-secondary: #a58f84;
 }
+
+#toggleTheme {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+
+    &+label::after {
+        vertical-align: -webkit-baseline-middle;
+        cursor: pointer;
+        color: $accent;
+        font-family: 'Material Symbols Outlined';
+        font-size: 1.3rem;
+        content: 'dark_mode';
+    }
+
+    &:checked+label::after {
+        content: 'light_mode';
+    }
+}
+
+.toggle {
+    position: relative;
+
+    .tooltip {
+        visibility: hidden;
+        position: absolute;
+        opacity: 0;
+        transition: opacity 0.2s;
+        width: 120px;
+        background: $secondary-color;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        z-index: 1;
+        margin-left: -85px;
+        top: 100%;
+        margin-top: 6px;
+        font-size: 0.8em;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: 70%;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent $secondary-color transparent;
+        }
+    }
+
+    &:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+    }
+}

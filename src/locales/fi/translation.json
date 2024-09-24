@@ -50,5 +50,7 @@
             ]
         }
     ],
-    "contact": "Yhteystiedot"
+    "contact": "Yhteystiedot",
+    "switchToDark": "Vaihda tummaan teemaan",
+    "switchToLight": "Vaihda vaaleaan teemaan"
 }
