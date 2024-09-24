@@ -1,7 +1,7 @@
 @mixin threeSections() {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 20px 40px;
+    gap: 0px 40px;
 
     section {
         &:last-of-type {
@@ -10,8 +10,22 @@
     }
 }
 
-$verticalPadding: 25px;
+$verticalPadding: 0px;
 $sidePadding: 35px;
 @mixin articlePadding() {
     padding: $verticalPadding $sidePadding;
+}
+
+h2 {
+    font-size: 1.8rem;
+    padding: 15px 0;
+}
+
+h3 {
+    padding: 8px 0;
+    font-size: 1.05rem;
+}
+
+p {
+    padding: 8px 0;
 }

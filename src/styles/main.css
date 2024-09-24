@@ -3,7 +3,7 @@
   --primary-color: #2e2e30;
   --secondary-color: #3f3f42;
   --text-primary: #f4eee0;
-  --accent: #f1b119;
+  --accent: #f0ba3b;
   --accent-secondary: #2f213b;
 }
 
@@ -100,6 +100,20 @@ nav select option {
   color: #000;
 }
 
+h2 {
+  font-size: 1.8rem;
+  padding: 15px 0;
+}
+
+h3 {
+  padding: 8px 0;
+  font-size: 1.05rem;
+}
+
+p {
+  padding: 8px 0;
+}
+
 #projects h2 {
   text-align: center;
 }
@@ -110,7 +124,7 @@ nav select option {
 #projectContainer #projectDisplay {
   flex: 60%;
   margin-left: -35px;
-  padding: 25px 35px;
+  padding: 0px 35px;
   background: var(--secondary-color);
 }
 #projectContainer .projectButtons {
@@ -177,26 +191,59 @@ nav select option {
 #aboutContainer {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 20px 40px;
+  gap: 0px 40px;
 }
 #aboutContainer section:last-of-type {
   grid-column: 1/3;
 }
-#aboutContainer .skills li {
-  display: inline-block;
+#aboutContainer #strengths ul li {
+  padding-left: 30px;
+  padding-top: 4px;
+  position: relative;
 }
-#aboutContainer .skills li:not(:last-child)::after {
+#aboutContainer #strengths ul li h3 {
+  color: var(--accent);
+  padding: 0;
+}
+#aboutContainer #strengths ul li p {
+  padding: 5px 0 15px 0;
+}
+#aboutContainer #strengths ul li::before {
+  content: "star";
+  font-family: "Material Symbols Outlined";
+  font-size: 1.4rem;
+  color: var(--accent);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#aboutContainer #skills {
+  text-align: center;
+}
+#aboutContainer #skills .skills li {
+  display: inline-block;
+  font-size: 1.1rem;
+}
+#aboutContainer #skills .skills li:not(:last-child)::after {
   content: "•";
-  padding: 0 5px;
+  padding: 0 10px;
+  color: var(--accent);
 }
 
 #experience {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 20px 40px;
+  gap: 0px 40px;
 }
 #experience section:last-of-type {
   grid-column: 1/3;
+}
+#experience h3 {
+  color: var(--accent);
+}
+#experience h3 span {
+  font-weight: 400;
+  color: var(--text-primary);
 }
 
 #contact {
@@ -243,7 +290,7 @@ ul {
 }
 
 main article {
-  padding: 25px 35px;
+  padding: 0px 35px;
 }
 
 footer {

@@ -1,15 +1,51 @@
+@use "theme";
 @use "defaults";
 
 #aboutContainer {
     @include defaults.threeSections();
 
-    .skills {
-        li {
-            display: inline-block;
+    #strengths {
+        ul {
+            li {
+                padding-left: 30px;
+                padding-top: 4px;
+                position: relative;
 
-            &:not(:last-child)::after {
-                content: "•";
-                padding: 0 5px;
+                h3 {
+                    color: theme.$accent;
+                    padding: 0;
+                }
+
+                p {
+                    padding: 5px 0 15px 0;
+                }
+
+                &::before {
+                    content: 'star';
+                    font-family: 'Material Symbols Outlined';
+                    font-size: 1.4rem;
+                    color: theme.$accent;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+            }
+        }
+    }
+
+    #skills {
+        text-align: center;
+
+        .skills {
+            li {
+                display: inline-block;
+                font-size: 1.1rem;
+
+                &:not(:last-child)::after {
+                    content: "•";
+                    padding: 0 10px;
+                    color: theme.$accent;
+                }
             }
         }
     }

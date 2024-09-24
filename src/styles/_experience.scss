@@ -1,5 +1,14 @@
+@use "theme";
 @use "defaults";
 
 #experience {
     @include defaults.threeSections();
+
+    h3 {
+        color: theme.$accent;
+        span {
+            font-weight: 400;
+            color: theme.$text-primary;
+        }
+    }
 }
