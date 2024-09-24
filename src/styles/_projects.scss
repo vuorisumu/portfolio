@@ -2,8 +2,6 @@
 @use "defaults";
 
 #projects {
-    // background: theme.$secondary-color;
-
     h2 {
         text-align: center;
     }
@@ -14,9 +12,10 @@
 
     #projectDisplay {
         flex: 60%;
-        // margin-left: calc(defaults.$sidePadding * -1);
-        // padding: defaults.$verticalPadding defaults.$sidePadding;
-        // background: theme.$secondary-color;
+
+        > h3 {
+            font-size: 1.3rem;
+        }
     }
 
     .projectButtons {

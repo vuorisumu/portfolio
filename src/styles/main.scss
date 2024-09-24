@@ -45,16 +45,22 @@ $footer-height: 2.5rem;
 
  main {
     padding-bottom: $footer-height;
-  }
 
-  main > section:nth-child(2n+1):not(:first-of-type) {
-    background: theme.$secondary-color;
-  }
+    article {
+      @include defaults.articlePadding();
+      max-width: 900px;
+      margin: auto;
+    }
 
-  main article {
-    @include defaults.articlePadding();
-    max-width: 900px;
-    margin: auto;
+    > section {
+      &:nth-child(n+3) {
+        min-height: 90vh;
+      }
+      
+      &:nth-child(2n+1):not(:first-of-type) {
+        background: theme.$secondary-color;
+      }
+    }
   }
 
   footer {
