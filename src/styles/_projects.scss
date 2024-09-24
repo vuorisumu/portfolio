@@ -1,8 +1,12 @@
 @use "theme";
 @use "defaults";
 
-@mixin activeButton() {
-    
+@mixin scrollable() {
+    max-height: 90vh;
+    padding-right: 5px;
+    overflow-y: auto;
+    scrollbar-color: color-mix(in srgb, theme.$text-primary, transparent 70%) transparent;
+    scrollbar-width: thin;
 }
 
 #projects {
@@ -12,24 +16,28 @@
 }
 
 #projectContainer {
+    min-height: 90vh;
     display:grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, max-content);
-    gap: 0 40px;
+    gap: 0 10px;
 
     #projectDisplay {
+        @include scrollable();
+
         > h3 {
             font-size: 1.3rem;
+        }
+
+        img {
+            max-width: 100%;
         }
     }
 
     .projectButtons {
+        @include scrollable();
         display: flex;
         flex-direction: column;
-        max-height: 90vh;
-        padding-right: 5px;
-        overflow-y: auto;
-        scrollbar-color: color-mix(in srgb, theme.$text-primary, transparent 50%) transparent;
-        scrollbar-width: thin;
+        
 
         li {
             display: flex;

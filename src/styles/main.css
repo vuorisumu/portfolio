@@ -123,21 +123,32 @@ p {
 }
 
 #projectContainer {
+  min-height: 90vh;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, max-content);
-  gap: 0 40px;
+  gap: 0 10px;
+}
+#projectContainer #projectDisplay {
+  max-height: 90vh;
+  padding-right: 5px;
+  overflow-y: auto;
+  scrollbar-color: color-mix(in srgb, var(--text-primary), transparent 70%) transparent;
+  scrollbar-width: thin;
 }
 #projectContainer #projectDisplay > h3 {
   font-size: 1.3rem;
 }
+#projectContainer #projectDisplay img {
+  max-width: 100%;
+}
 #projectContainer .projectButtons {
-  display: flex;
-  flex-direction: column;
   max-height: 90vh;
   padding-right: 5px;
   overflow-y: auto;
-  scrollbar-color: color-mix(in srgb, var(--text-primary), transparent 50%) transparent;
+  scrollbar-color: color-mix(in srgb, var(--text-primary), transparent 70%) transparent;
   scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
 }
 #projectContainer .projectButtons li {
   display: flex;

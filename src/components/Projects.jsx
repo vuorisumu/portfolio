@@ -16,6 +16,9 @@ function Projects() {
       <div id="projectContainer">
         <div id="projectDisplay">
           <h3>{selected.name}</h3>
+          {selected.images?.map((img, index) => (
+            <img src={img} />
+          ))}
           {selected.description?.map((desc, index) => (
             <p key={`desc${index}`}>{desc}</p>
           ))}
