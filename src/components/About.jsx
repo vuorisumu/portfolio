@@ -9,14 +9,14 @@ function About() {
   return (
     <article id="about">
       <div id="aboutContainer">
-        <section>
+        <section id="about-me">
           <h2>{t("about")}</h2>
           {desc.map((d, index) => (
             <p key={`desc${index}`}>{d}</p>
           ))}
         </section>
 
-        <section>
+        <section id="strengths">
           <h2>{t("strengthsTitle")}</h2>
           <ul>
             {strengths.map((strength, index) => (
@@ -28,7 +28,7 @@ function About() {
           </ul>
         </section>
 
-        <section>
+        <section id="skills">
           <h2>{t("skillsTitle")}</h2>
           <ul className="skills">
             {skills.map((skill, index) => (
