@@ -1,12 +1,16 @@
 @use "theme";
 
-#infoContainer {
-    display: grid;
-    grid-template-columns:150px auto;
+#info {
     background: theme.$secondary-color;
 
-    img {
-        grid-row: 1/3;
-        width:100%;
+    #infoContainer {
+        display: grid;
+        align-items: center;
+        grid-template-columns:150px auto;
+    
+        img {
+            grid-row: 1/3;
+            width:100%;
+        }
     }
 }
