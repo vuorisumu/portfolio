@@ -32,13 +32,19 @@ function Projects() {
         <ul className="projectButtons">
           {projects.map((project, index) => (
             <li key={`project${index}`}>
-              <button onClick={() => setSelected(project)}>
+              <button
+                onClick={() => setSelected(project)}
+                className={selected === project ? "active" : ""}
+              >
                 <div className="imageHolder">
-                  <img src="/placeholder.png" />
+                  <img
+                    src={
+                      project.cover ? `/${project.cover}` : "/githubicon.png"
+                    }
+                    className={project.cover ? "" : "no-image"}
+                  />
                 </div>
-                <h3 className={selected === project ? "active" : ""}>
-                  {project.name}
-                </h3>
+                <h3>{project.name}</h3>
               </button>
             </li>
           ))}

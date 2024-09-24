@@ -49,6 +49,10 @@
         {
             "name": "Listmaker 9000",
             "time": "Dec 2023 ->",
+            "cover": "listmaker-cover.png",
+            "images": [
+                "listmaker.png"
+            ],
             "description": [
                 "Listmaker 9000 is my passion project, a page where you can make top list templates and use them as bases for your top lists.", 
                 "The backend contains an Express REST API that connects to the database hosted on Oracle Cloud. All data is validated using Joi schemas before sending it to the database. Passwords are encrypted with bcrypt and JWT is used for authentication.",
@@ -82,6 +86,11 @@
         {
             "name": "Work it Out!",
             "time": "Spring 2023",
+            "cover": "wio-cover.png",
+            "images": [
+                "workitout.png",
+                "workitout-page.png"
+            ],
             "description": [
                 "Work it Out! is a mobile game made for TYKKY. During this project I was a programmer, web designer and responsible for project management. My main task as a programmer was the structure and the basic functionality of the game. On top of that I was also heavily involved with the game design, story and writing some of the characters, texts and documentation for the game.",
                 "In the project we used Scrum as the project management framework, and made the game using Unity and C#. The project began on January 2023 and ended in May of the same year.",
@@ -105,6 +114,10 @@
         {
             "name": "Connectify",
             "time": "Spring 2023",
+            "cover": "connectify-cover.png",
+            "images": [
+                "connectify.png"
+            ],
             "description": [
                 "Connectify is a mobile game made for TYKKY. This project began on January 2023 and ended on May of the same year, and I joined to the team as a programmer in February while also working on Work it Out! My job in this project was to create the structure and the basic functionality of the game."
             ],
@@ -122,6 +135,10 @@
         {
             "name": "Sammakkosanomat website",
             "time": "Autumn 2023",
+            "cover": "sammakkosanomat-cover.png",
+            "images": [
+                "sammakkosanomat.png"
+            ],
             "description": [
                 "Sammakkosanomat is a website for a fictional online community. I made the website to showcase my HTML and SCSS skills, using a bit of Javascript as well. It is a mobile-first page that uses a variety of different SCSS techniques."
             ],
@@ -135,6 +152,10 @@
         {
             "name": "John Shepard website",
             "time": "Spring 2023",
+            "cover": "shepard-cover.png",
+            "images": [
+                "shepard.png"
+            ],
             "description": [
                 "This website showcases what I learned during a WWW-techniques course and tells the story of the main character of Mass Effect game series.",
                 "The website is created with HTML, CSS and a bit of Javascript using mobile first approach."
@@ -149,6 +170,10 @@
         {
             "name": "Portfolio hub",
             "time": "Autumn 2023",
+            "cover": "portfolio.png",
+            "images": [
+                "portfoliopage.png"
+            ],
             "description": [
                 "For a Git course we made a portfolio hub that links all team members' portfolios to a single page. I made my own portfolio page as well as the hub page using HTML, SCSS and a bit of Javascript."
             ],
@@ -166,6 +191,10 @@
         {
             "name": "The Reclaimer: Root force attack",
             "time": "Jan 2023",
+            "cover": "reclaimer-cover.jpg",
+            "images": [
+                "reclaimer.jpg"
+            ],
             "description": [
                 "The Reclaimer: Root force attack is a Global Game Jam game I worked on in January 2023. I worked on some utility scripts like building randomization, blood splatters and menu functionality, and made graphics like blood splatters and the main menu screen."
             ],
