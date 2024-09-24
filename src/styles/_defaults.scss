@@ -1,12 +1,11 @@
 @mixin threeSections() {
-    display: flex;
-    flex-wrap: wrap;
-    
-    section {
-        flex: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 40px;
 
+    section {
         &:last-of-type {
-            flex:100%;
+            grid-column: 1/3;
         }
     }
 }

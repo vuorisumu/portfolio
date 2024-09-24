@@ -175,14 +175,12 @@ nav select option {
 }
 
 #aboutContainer {
-  display: flex;
-  flex-wrap: wrap;
-}
-#aboutContainer section {
-  flex: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px 40px;
 }
 #aboutContainer section:last-of-type {
-  flex: 100%;
+  grid-column: 1/3;
 }
 #aboutContainer .skills li {
   display: inline-block;
@@ -193,14 +191,12 @@ nav select option {
 }
 
 #experience {
-  display: flex;
-  flex-wrap: wrap;
-}
-#experience section {
-  flex: 50%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px 40px;
 }
 #experience section:last-of-type {
-  flex: 100%;
+  grid-column: 1/3;
 }
 
 #contact {
