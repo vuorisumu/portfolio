@@ -100,9 +100,6 @@ nav select option {
   color: #000;
 }
 
-#projects {
-  background: var(--secondary-color);
-}
 #projects h2 {
   text-align: center;
 }
@@ -112,6 +109,9 @@ nav select option {
 }
 #projectContainer #projectDisplay {
   flex: 60%;
+  margin-left: -35px;
+  padding: 25px 35px;
+  background: var(--secondary-color);
 }
 #projectContainer .projectButtons {
   flex: 40%;
@@ -243,7 +243,7 @@ ul {
 }
 
 main article {
-  padding-left: 15px;
+  padding: 25px 35px;
 }
 
 footer {

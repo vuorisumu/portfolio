@@ -51,7 +51,7 @@ $footer-height: 2.5rem;
   }
 
   main article {
-    padding-left: 15px;
+    @include defaults.articlePadding();
   }
 
   footer {

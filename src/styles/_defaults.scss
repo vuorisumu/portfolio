@@ -9,3 +9,9 @@
         }
     }
 }
+
+$verticalPadding: 25px;
+$sidePadding: 35px;
+@mixin articlePadding() {
+    padding: $verticalPadding $sidePadding;
+}
