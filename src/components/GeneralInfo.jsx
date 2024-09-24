@@ -6,7 +6,7 @@ function GeneralInfo() {
   return (
     <article id="info">
       <div id="infoContainer">
-        <img src="/placeholder.png" />
+        <img src="/sumu.jpg" />
         <h1>Sumu Vuori</h1>
         <p>{t("title")}</p>
       </div>

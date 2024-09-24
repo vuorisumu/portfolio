@@ -147,16 +147,31 @@ nav select option {
 }
 
 #info {
-  background: var(--secondary-color);
+  padding: 15px;
 }
 #info #infoContainer {
   display: grid;
-  align-items: center;
+  align-items: start;
   grid-template-columns: 150px auto;
+}
+#info #infoContainer :not(:first-child) {
+  background: linear-gradient(to right, var(--accent-secondary) 50%, transparent);
+  padding-left: 70px;
+  margin-left: -60px;
 }
 #info #infoContainer img {
   grid-row: 1/3;
   width: 100%;
+  border-radius: 70px 10px;
+  z-index: 2;
+}
+#info #infoContainer h1 {
+  align-self: end;
+  padding-top: 30px;
+  font-size: 2rem;
+}
+#info #infoContainer p {
+  padding-bottom: 30px;
 }
 
 #aboutContainer {

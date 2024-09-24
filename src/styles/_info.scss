@@ -1,16 +1,36 @@
 @use "theme";
 
+$borderPadding: 30px;
+
 #info {
-    background: theme.$secondary-color;
+    padding: 15px;
 
     #infoContainer {
         display: grid;
-        align-items: center;
+        align-items: start;
         grid-template-columns:150px auto;
+
+        :not(:first-child) {
+            background: linear-gradient(to right, theme.$accent-secondary 50%, transparent);
+            padding-left: 70px;
+            margin-left: -60px;
+        }
     
         img {
             grid-row: 1/3;
-            width:100%;
+            width: 100%;
+            border-radius: 70px 10px;
+            z-index: 2;
+        }
+
+        h1 {
+            align-self: end;
+            padding-top: $borderPadding;
+            font-size: 2rem;
+        }
+
+        p {
+            padding-bottom: $borderPadding;
         }
     }
 }
