@@ -18,11 +18,25 @@ function App() {
 
           <div id="content">
             <main>
-              <GeneralInfo />
-              <About />
-              <Projects />
-              <Cv />
-              <Contact />
+              <section>
+                <GeneralInfo />
+              </section>
+
+              <section>
+                <About />
+              </section>
+
+              <section>
+                <Projects />
+              </section>
+
+              <section>
+                <Cv />
+              </section>
+
+              <section>
+                <Contact />
+              </section>
             </main>
           </div>
           <footer>

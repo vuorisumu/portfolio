@@ -43,15 +43,18 @@ $footer-height: 2.5rem;
     position: relative;
   }
 
-  #content {
-    min-width: 370px;
-    max-width: 900px;
-    margin: auto;
-    padding: 30px 40px $footer-height 40px;
+ main {
+    padding-bottom: $footer-height;
+  }
+
+  main > section:nth-child(2n+1):not(:first-of-type) {
+    background: theme.$secondary-color;
   }
 
   main article {
     @include defaults.articlePadding();
+    max-width: 900px;
+    margin: auto;
   }
 
   footer {
@@ -60,6 +63,7 @@ $footer-height: 2.5rem;
     width: 100%;
     height: $footer-height;
     text-align: center;
+    background: theme.$secondary-color;
   }
 
   a {
