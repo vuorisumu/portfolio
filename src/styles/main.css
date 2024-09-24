@@ -174,9 +174,15 @@ nav select option {
   padding: 0 5px;
 }
 
-#experience .expFields {
-  display: grid;
-  grid-template-columns: auto auto;
+#experience {
+  display: flex;
+  flex-wrap: wrap;
+}
+#experience section {
+  flex: 50%;
+}
+#experience section:last-of-type {
+  flex: 100%;
 }
 
 #contact {

@@ -1,0 +1,12 @@
+@mixin threeSections() {
+    display: flex;
+    flex-wrap: wrap;
+    
+    section {
+        flex: 50%;
+
+        &:last-of-type {
+            flex:100%;
+        }
+    }
+}

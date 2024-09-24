@@ -6,22 +6,20 @@ function Cv() {
 
   return (
     <article id="experience">
-      <ul className="expFields">
-        {experience.map((expField) => (
-          <li key={`expField${expField.name}`}>
-            <h2>{expField.name}</h2>
-            <ul>
-              {expField.contents.map((exp, index) => (
-                <li key={`${expField.name}${index}`}>
-                  <h3>{exp.name}</h3>
-                  <p>{exp.time}</p>
-                  <p>{exp.description}</p>
-                </li>
-              ))}
-            </ul>
-          </li>
-        ))}
-      </ul>
+      {experience.map((expField) => (
+        <section key={`expField${expField.name}`}>
+          <h2>{expField.name}</h2>
+          <ul>
+            {expField.contents.map((exp, index) => (
+              <li key={`${expField.name}${index}`}>
+                <h3>{exp.name}</h3>
+                <p>{exp.time}</p>
+                <p>{exp.description}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </article>
   );
 }
