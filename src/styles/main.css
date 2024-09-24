@@ -103,6 +103,9 @@ nav select option {
 #projects {
   background: var(--secondary-color);
 }
+#projects h2 {
+  text-align: center;
+}
 
 #projectContainer {
   display: flex;

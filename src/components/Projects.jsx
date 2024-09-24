@@ -12,10 +12,9 @@ function Projects() {
 
   return (
     <article id="projects">
+      <h2>{t("projectTitle")}</h2>
       <div id="projectContainer">
         <div id="projectDisplay">
-          <h2>{t("projectTitle")}</h2>
-
           <h3>{selected.name}</h3>
           {selected.description?.map((desc, index) => (
             <p key={`desc${index}`}>{desc}</p>
