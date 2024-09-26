@@ -1,4 +1,6 @@
 @use "theme";
+@import url('https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 @mixin threeSections() {
     display: grid;
@@ -49,6 +51,11 @@ $sidePadding: 35px;
 
 article section {
     padding: 10px 0;
+}
+
+h1, h2, h3 {
+    font-family: "Unna", serif;
+    font-weight: 700;
 }
 
 h2 {
