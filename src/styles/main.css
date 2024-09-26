@@ -107,6 +107,25 @@ article section {
 h2 {
   font-size: 1.8rem;
   padding: 15px 0;
+  position: relative;
+}
+h2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(to right, var(--accent-secondary) 50%, transparent);
+  z-index: -1;
+}
+@media only screen and (max-width: 700px) {
+  h2 {
+    text-align: center;
+  }
+  h2::before {
+    background: linear-gradient(to right, transparent, var(--accent-secondary) 33%, var(--accent-secondary) 66%, transparent);
+  }
 }
 
 h3 {
@@ -273,6 +292,9 @@ p {
 #aboutContainer section:last-of-type h2 {
   text-align: center;
 }
+#aboutContainer section:last-of-type h2::before {
+  background: linear-gradient(to right, transparent, var(--accent-secondary) 33%, var(--accent-secondary) 66%, transparent);
+}
 #aboutContainer section:last-of-type ul:not(.skills) {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -333,6 +355,9 @@ p {
 }
 #experience section:last-of-type h2 {
   text-align: center;
+}
+#experience section:last-of-type h2::before {
+  background: linear-gradient(to right, transparent, var(--accent-secondary) 33%, var(--accent-secondary) 66%, transparent);
 }
 #experience section:last-of-type ul:not(.skills) {
   display: grid;
@@ -448,10 +473,4 @@ a {
   font-weight: 600;
   -webkit-text-decoration: underline var(--accent);
           text-decoration: underline var(--accent);
-}
-
-@media only screen and (max-width: 700px) {
-  h2 {
-    text-align: center;
-  }
 }/*# sourceMappingURL=main.css.map */
