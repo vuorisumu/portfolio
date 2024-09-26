@@ -136,7 +136,7 @@ h2:before {
 
 h3 {
   padding: 8px 0;
-  font-size: 1.05rem;
+  font-size: 1.25rem;
 }
 
 p {
@@ -161,7 +161,7 @@ p {
   scrollbar-width: thin;
 }
 #projectContainer #projectDisplay > h3 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
 }
 #projectContainer #projectDisplay img {
   max-width: 100%;
@@ -281,7 +281,8 @@ p {
 #info #infoContainer h1 {
   align-self: end;
   padding-top: 30px;
-  font-size: 2rem;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
 }
 #info #infoContainer p {
   padding-bottom: 30px;
@@ -386,6 +387,7 @@ p {
 }
 #experience h3 span {
   font-weight: 400;
+  font-size: 1.2rem;
   color: var(--text-primary);
 }
 
@@ -457,6 +459,7 @@ main > section:nth-child(2n+1):not(:first-of-type) {
 }
 main > section:nth-child(2n+1):not(:first-of-type) h2 {
   color: var(--accent);
+  font-size: 2.2rem;
 }
 
 footer {
