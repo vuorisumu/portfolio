@@ -18,6 +18,20 @@
             }
         }
     }
+
+    @media only screen and (max-width: 700px) {
+        grid-template-columns: minmax(0, 1fr);
+
+        section {
+            &:last-of-type {
+                grid-column: 1;
+    
+                ul:not(.skills) {
+                    grid-template-columns: minmax(0, 1fr);
+                }
+            }
+        }
+    }
 }
 
 $topPadding: 5px;

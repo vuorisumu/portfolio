@@ -51,7 +51,6 @@
                 overflow: hidden;
                 background: theme.$accent-secondary;
                 border-radius: 10px;
-                overflow: hidden;
                 cursor: pointer;
 
                 .imageHolder {
@@ -123,6 +122,22 @@
                         animation: shine (0.6s);
                     }
                 }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: max-content;
+        align-items: start;
+
+        .projectButtons {
+            grid-row: 1;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0,1fr));
+
+            li {
+
             }
         }
     }

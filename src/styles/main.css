@@ -162,7 +162,6 @@ p {
   overflow: hidden;
   background: var(--accent-secondary);
   border-radius: 10px;
-  overflow: hidden;
   cursor: pointer;
 }
 #projectContainer .projectButtons li button .imageHolder {
@@ -221,6 +220,18 @@ p {
 #projectContainer .projectButtons li button:hover::before, #projectContainer .projectButtons li button.active::before {
   animation: shine 0.6s;
 }
+@media only screen and (max-width: 700px) {
+  #projectContainer {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: max-content;
+    align-items: start;
+  }
+  #projectContainer .projectButtons {
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
 
 #info {
   padding: 15px;
@@ -266,6 +277,17 @@ p {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0 40px;
+}
+@media only screen and (max-width: 700px) {
+  #aboutContainer {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  #aboutContainer section:last-of-type {
+    grid-column: 1;
+  }
+  #aboutContainer section:last-of-type ul:not(.skills) {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 #aboutContainer #strengths ul li {
   padding-left: 30px;
@@ -316,6 +338,17 @@ p {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0 40px;
+}
+@media only screen and (max-width: 700px) {
+  #experience {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  #experience section:last-of-type {
+    grid-column: 1;
+  }
+  #experience section:last-of-type ul:not(.skills) {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 #experience h3 {
   color: var(--accent);
@@ -415,4 +448,10 @@ a {
   font-weight: 600;
   -webkit-text-decoration: underline var(--accent);
           text-decoration: underline var(--accent);
+}
+
+@media only screen and (max-width: 700px) {
+  h2 {
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
