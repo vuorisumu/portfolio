@@ -41,9 +41,7 @@ function Projects() {
               >
                 <div className="imageHolder">
                   <img
-                    src={
-                      project.cover ? `/${project.cover}` : "/githubicon.png"
-                    }
+                    src={project.cover ? `${project.cover}` : "githubicon.png"}
                     className={project.cover ? "" : "no-image"}
                   />
                 </div>

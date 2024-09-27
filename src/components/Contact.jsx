@@ -6,8 +6,9 @@ function Contact() {
   return (
     <article id="contact">
       <h2>{t("contact")}</h2>
-      <img src="/sumu.jpg" />
+      <img src="sumu.jpg" />
       <h3>Sumu Vuori</h3>
+
       <p>
         <span className="material-symbols-outlined">mail</span>
         vuori.sumu[at]gmail.com
