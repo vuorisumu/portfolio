@@ -49,7 +49,7 @@
         {
             "name": "Listmaker 9000",
             "time": "Dec 2023 ->",
-            "cover": "listmaker-cover.png",
+            "cover": "listmaker-icon.png",
             "images": [
                 "listmaker.png"
             ],
@@ -84,9 +84,27 @@
             ]
         },
         {
+            "name": "Weather app",
+            "time": "Spring 2024",
+            "cover": "weatherapp-icon.png",
+            "images": [
+                "weatherapp.png"
+            ],
+            "description": [
+                "In Jetpack Compose I developed a weather application for Android devices. It displays the current weather from the user location and provides the weather forecast for the next week.",
+                "The user can also search the city by name, or directly from the map. The data is visualized with graphs in an user-friendly manner. The app also saves the last three searched locations for easy access."
+            ],
+            "links": [
+                {
+                    "text": "GitHub",
+                    "link": "https://github.com/4A00EZ65-3004-Mobiilikehitys/mobile-project-vuorisumu"
+                }
+            ]
+        },
+        {
             "name": "Work it Out!",
             "time": "Spring 2023",
-            "cover": "wio-cover.png",
+            "cover": "workitout-icon.png",
             "images": [
                 "workitout.png",
                 "workitout-page.png"
@@ -114,7 +132,7 @@
         {
             "name": "Connectify",
             "time": "Spring 2023",
-            "cover": "connectify-cover.png",
+            "cover": "connectify-logo.png",
             "images": [
                 "connectify.png"
             ],
@@ -135,7 +153,7 @@
         {
             "name": "Sammakko-sanomat website",
             "time": "Autumn 2023",
-            "cover": "sammakkosanomat-cover.png",
+            "cover": "sammakkosanomat-icon.png",
             "images": [
                 "sammakkosanomat.png"
             ],
@@ -152,7 +170,7 @@
         {
             "name": "John Shepard website",
             "time": "Spring 2023",
-            "cover": "shepard-cover.png",
+            "cover": "shepard-icon.png",
             "images": [
                 "shepard.png"
             ],
@@ -170,7 +188,7 @@
         {
             "name": "Portfolio hub",
             "time": "Autumn 2023",
-            "cover": "portfolio.png",
+            "cover": "portfoliopage-icon.png",
             "images": [
                 "portfoliopage.png"
             ],
@@ -191,7 +209,7 @@
         {
             "name": "The Reclaimer: Root force attack",
             "time": "Jan 2023",
-            "cover": "reclaimer-cover.jpg",
+            "cover": "reclaimer-icon.png",
             "images": [
                 "reclaimer.jpg"
             ],
