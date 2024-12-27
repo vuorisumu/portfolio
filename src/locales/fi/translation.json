@@ -68,6 +68,22 @@
       ]
     },
     {
+      "name": "BayCalc-verkkosivu",
+      "time": "Autumn 2024",
+      "cover": "baycalc-icon.png",
+      "images": ["baycalc.png", "baycalc2.png", "baycalc3.png"],
+      "description": [
+        "BayCalc on työkalu, jolla Bavarian korkeakoulut laskevat kasvihuonepäästöjään. Verkkosivut tarjoavat käyttäjälleen kaiken oleellisen tiedon työkaluun liittyen, sekä mahdollisuuden tarkastella muiden korkeakoulujen julkaisemia kasvihuonepäästöraporttejaan.",
+        "Minä toimin frontend-kehittäjänä ja olin pääasiassa vastuussa ulkoasun toteutuksesta, kielivalikosta, hakutoiminnosta ja verkkosivun rakenteesta."
+      ],
+      "links": [
+        {
+          "text": "BayCalc",
+          "link": "http://bay-calc.de/"
+        }
+      ]
+    },
+    {
       "name": "SQLittaaja",
       "time": "Kevät 2024",
       "description": [

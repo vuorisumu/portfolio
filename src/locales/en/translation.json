@@ -68,6 +68,22 @@
       ]
     },
     {
+      "name": "BayCalc website",
+      "time": "Autumn 2024",
+      "cover": "baycalc-icon.png",
+      "images": ["baycalc.png", "baycalc2.png", "baycalc3.png"],
+      "description": [
+        "BayCalc is a tool for calculating the GHG emissions of Bavarian universities. The website exists to provide the user with all necessary information about the tool, as well as an option to browse the published GHG emissions of other universities.",
+        "I worked on the frontend side of the website and was mainly responsible for adapting the layout from the provided design, language selection, search functionalities and the structure of the website."
+      ],
+      "links": [
+        {
+          "text": "BayCalc",
+          "link": "http://bay-calc.de/"
+        }
+      ]
+    },
+    {
       "name": "SQLittaaja",
       "time": "Spring 2024",
       "description": [
